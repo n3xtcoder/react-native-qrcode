@@ -30,6 +30,8 @@ May 05, 2018 Berlin
 * https://facebook.github.io/react-native/docs/getting-started.html
 * https://docs.expo.io/versions/latest/sdk/index.html
 * https://js.coach/react-native
+* https://snack.expo.io/BJlFFcp2g
+* https://docs.expo.io/versions/latest/sdk/bar-code-scanner
 
 
 
