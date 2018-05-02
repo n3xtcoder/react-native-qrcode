@@ -3,27 +3,17 @@
 N3XTCODER + Urban Sports Club  
 May 05, 2018 Berlin
 
-## Get Started with Create React Native App
+## Get Started
 
 [Create React Native App](https://github.com/react-community/create-react-native-app) is a quickstart tool by facebook that simplifies setup of React Native projects.
 
-* `npm install -g create-react-native-app`
+* Install [node.js 9 or 10](https://nodejs.org/en/) 
+* Git clone this repo
 * `npm install`
 * `npm start`
 * Download the Expo app on your mobile phone: [iOS](https://itunes.apple.com/app/apple-store/id982107779), [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www)
 * Send `exp://` link to your phone
 
-
-## Get Started with Expo
-
-[Expo](https://expo.io/) is an app that simplifies the setup and development of React Native projects. Requires a login, though.
-
-* [Create an Expo account](https://expo.io/signup)
-* Install `npm -i g exp` or [Expo XDE](https://docs.expo.io/versions/v26.0.0/introduction/installation)
-* Download the Expo app on your mobile phone: [iOS](https://itunes.apple.com/app/apple-store/id982107779), [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www)
-* Git clone this repo
-* Start the project `exp start` or in XDE
-* Open Expo app on phone, login and select your project
 
 ## Useful links
 
