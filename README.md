@@ -9,6 +9,7 @@ May 05, 2018 Berlin
 
 * Install [node.js 9 or 10](https://nodejs.org/en/) 
 * Git clone this repo
+* cd into the repo
 * `npm install`
 * `npm start`
 * Download the Expo app on your mobile phone: [iOS](https://itunes.apple.com/app/apple-store/id982107779), [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www)
