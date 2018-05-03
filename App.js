@@ -1,13 +1,18 @@
 import React from "react";
-import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity, Alert } from "react-native";
 import { Font } from "expo";
+import { getAccessToken, apiFetch } from "./api_utils";
 
 import DummyScreen from "./screens/DummyScreen";
 import CheckInScreen from "./screens/CheckInScreen";
 
+const API_USERNAME = "";
+const API_PASSWORD = "";
+
 class FontContainer extends React.Component {
   state = {
-    fontLoaded: false
+    fontLoaded: false,
+    accessToken: null
   };
 
   async componentDidMount() {
@@ -16,6 +21,12 @@ class FontContainer extends React.Component {
     });
 
     this.setState({ fontLoaded: true });
+
+    const accessToken = await getAccessToken(API_USERNAME, API_PASSWORD);
+    this.setState({ accessToken });
+
+    const venues = await apiFetch("/venues", accessToken);
+    console.log("Venues", venues.length);
   }
 
   render() {
@@ -30,7 +41,7 @@ export default class App extends React.Component {
 
   renderScreen() {
     switch (this.state.screen) {
-      case 'CHECK-IN':
+      case "CHECK-IN":
         return <CheckInScreen />;
       default:
         return <DummyScreen />;
