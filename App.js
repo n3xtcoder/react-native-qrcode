@@ -6,8 +6,8 @@ import { getAccessToken, apiFetch } from "./api_utils";
 import DummyScreen from "./screens/DummyScreen";
 import CheckInScreen from "./screens/CheckInScreen";
 
-const API_USERNAME = "";
-const API_PASSWORD = "";
+const API_USERNAME = "test+mr@urbansportsclub.com";
+const API_PASSWORD = "usc2012password";
 
 class FontContainer extends React.Component {
   state = {

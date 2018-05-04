@@ -12,8 +12,8 @@ type APIResponse<T> = {
   data: T
 };
 
-const CLIENT_ID = "";
-const CLIENT_SECRET = "";
+const CLIENT_ID = "80167133215";
+const CLIENT_SECRET = "MPY871FM1X4V5U7M9YQ1GK123Q1YR5WRPJZ18334GVDL3UXVYUR2AXWALXRX921P";
 const API_PREFIX = "https://api-de-tm01.urbansportsclub.com/api/v4";
 
 export async function authenticate(
