@@ -25,6 +25,12 @@ May 05, 2018 Berlin
 * https://docs.expo.io/versions/latest/sdk/bar-code-scanner
 
 
+## API endpoints
+* `GET /courses/instant?venueUrl=${qrcodeUrl}`
+* Extract data.classes.id
+* `POST /bookings/checkin-instant` Body: `{ appointmentId: 123 }`
+
+
 
 # Create React Native App Readme
 
